@@ -1,1 +1,31 @@
+.wrap{
+    padding: auto;
+    box-sizing: content-box;
+    border: firebrick;
+}
+.button {
+    background-color:#0a0a23;
+    color: #fff;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(198, 183, 183);
+    text-align: center;
+    top:auto;
+}
 
+.button:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+.button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+}
+.info {
+    color:green;
+    text-align: center;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: initial;
+}
